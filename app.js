@@ -1,6 +1,6 @@
 var cacheName = 'my_pages';
 var filesToCache = [
-  '/',
+  
   '/index.html',
   '/js/bootstrap.min.js',
   '/js/jquery.min.js',
