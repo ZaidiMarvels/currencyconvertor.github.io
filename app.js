@@ -1,7 +1,9 @@
-var cacheName = 'hello-world-page';
+var cacheName = 'my_pages';
 var filesToCache = [
   '/',
   '/index.html',
+  '/js/bootstrap.min.js',
+  '/js/jquery.min.js',
   '/css/bootstrap.css'
 ];
 self.addEventListener('install', function(e) {
