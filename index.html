@@ -76,7 +76,14 @@
 
 
 
-
+   <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('js/app.js')
+        .then(function() {
+              console.log('Service Worker Registered');
+        });
+    }
+  </script>
 
   <script>
 
